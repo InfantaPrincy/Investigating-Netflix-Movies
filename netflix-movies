@@ -37,9 +37,9 @@ plt.ylabel("Duration (min)")
 legend_labels = ['Children', 'Documentaries', 'Stand-Up', 'Other']
 legend_elements = [plt.Line2D([0], [0], marker='o', color='w', markerfacecolor=color, markersize=10) for color in ['red', 'blue', 'green', 'gray']]
 ax.legend(legend_elements, legend_labels, loc='upper right')
-
-
 plt.show()
 
 answer = 'Yes'
 print("Are we certain that movies are getting shorter", answer)
+
+
